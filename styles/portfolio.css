@@ -3,17 +3,21 @@
     font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
-    color: #ff4500;
+    color:  #fd6e0a;
 }
 .btn-primary{
     height: 64px;
     border-radius: 5px;
-    background: #ff4500;
+    background:  #fd6e0a;
     color: rgb(240, 248, 255);
     font-weight: 700;
     font-size: 20px;
     border: 0;
     padding: 18ps 35px;
+}
+.header{
+    background: #fd6e0a;
+    
 }
 /* header and navigation styles */
 
