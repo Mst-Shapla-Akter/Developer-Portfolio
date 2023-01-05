@@ -2,10 +2,25 @@
     margin: ;
     font-family: 'Open Sans', sans-serif;
 }
+.text-primary{
+    color: #ff4500;
+}
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    background: #ff4500;
+    color: rgb(240, 248, 255);
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18ps 35px;
+}
 /* header and navigation styles */
 
 nav{
     display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
 }
 .nav-title{
     font-weight: 800;
@@ -13,11 +28,17 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
+    margin-left: 50px;
 }
-.text-primary{
-    color: #ff4500;
+/* banner styles */
+.banner{
+    display: flex;
+    margin : 0 200px;
+    align-items: center;
 }
+
 
